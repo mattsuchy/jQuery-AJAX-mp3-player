@@ -1,0 +1,168 @@
+.navbar-dark .navbar-brand {
+    color: #fff;
+    border-right: 1px solid #fff;
+    padding-right: 20px;
+}
+.modal-content{
+	background-color: #666;
+}
+audio{
+	width: 100%;
+}
+.top-container{
+	margin-top: 60px;
+}
+a{
+	cursor: pointer;
+}
+.songUrlCont p, .songNameCont p{
+	float: left;
+	margin-right: 5px;
+}
+.songUrlCont{
+	    float: left;
+    margin-right: 5px;
+}
+.songNameCont{
+	float: left;
+}
+.addSongsBtn{
+	float: right;
+}
+.addPlPt2, .addNewPlaylistSong{
+	display: none;
+}
+body {
+    background-color: #666;
+    font-family: arial;
+	color: #f4f4f4;
+}
+.playlistsContainer{
+	margin-top: 100px;
+}
+.coverImg{
+	border-radius: 50%;
+}
+
+.playlistTitle{
+	text-align: center;
+}
+.btnPlay, .btnEdit, .btnDelete{
+	background: transparent;
+    border: 0;
+    position: absolute;
+    
+    cursor: pointer;
+}
+.btnPlay{
+	top: 128px;
+    left: 112px;
+	font-size: 3em;
+}
+.btnEdit{
+	left: 110px;
+    top: 50px;
+}
+.btnDelete{
+	left: 140px;
+    top: 50px;
+}
+.playerMainContainer{
+	margin-top: 100px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#758089+0,333e44+100 */
+background: #758089; /* Old browsers */
+background: -moz-linear-gradient(top, #758089 0%, #333e44 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #758089 0%,#333e44 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #758089 0%,#333e44 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#758089', endColorstr='#333e44',GradientType=0 ); /* IE6-9 */
+	border-top-left-radius: 144px;
+	border-bottom-left-radius: 144px;
+	border: 2px solid #424b52;
+	box-shadow: 2px 4px 10px 2px #333;
+	    padding: 10px;
+	float: left;
+}
+.playerContainer{
+	width: 58%;
+	float: left;
+}
+.cdContainer{
+	width: 40%;
+	float: left;
+	margin-right: 2%;
+}
+.thePlayer{
+	display: none;
+}
+.rotator{
+	 -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+	-webkit-animation-name: rotate; 
+    -webkit-animation-duration: 2s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: rotate; 
+    -moz-animation-duration: 2s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+}
+@-webkit-keyframes rotate {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes rotate {
+    from {-moz-transform: rotate(0deg);}
+    to {-moz-transform: rotate(360deg);}
+}
+.playlistDiv{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#333e44+0,758089+100 */
+background: #333e44; /* Old browsers */
+background: -moz-linear-gradient(top, #333e44 0%, #758089 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #333e44 0%,#758089 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #333e44 0%,#758089 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333e44', endColorstr='#758089',GradientType=0 ); /* IE6-9 */
+	    min-height: 205px;
+    border-radius: 25px;
+    border: 2px solid #424b52;padding: 10px;
+}
+#playlist{
+	padding-left: 0;
+}
+#playlist li{
+	list-style: none;
+	    padding-left: 15px;
+}
+#playlist li.current-song{
+	font-weight: bold;
+    background-image: url(../images/playInd.png);
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+}
+#playlist li.current-song a{
+	opacity: 1;
+}
+#playlist a{
+	color: #fff;
+	opacity: 0.5;
+}
+#editSongsList{
+	margin-top: 20px;
+}
+.editSongRow{
+	margin: 5px 0;
+}
+.editSongsList{
+	padding-left: 0;
+}
+.editSongRow p, .editSongRow input{
+	float: left;
+}
+.editSongRow p{
+	margin-right: 10px;
+}
+.editSongRow input{
+	margin-right: 10px;
+}
